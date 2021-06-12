@@ -6,9 +6,12 @@ dotenv.config();
 import morgan from "morgan";
 import globalRouter from "./routers/globalRouter";
 import adminRouter from "./routers/adminRouter";
+import connect from "../db";
 
 const app = express();
 const PORT = process.env.PORT;
+
+connect();
 
 app.set("view engine", "pug");
 
