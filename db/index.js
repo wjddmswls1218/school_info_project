@@ -23,7 +23,7 @@ const connect = () => {
         console.log(error);
         console.log(`❌ Failed To MongoDB Connect :: ${connectData.DB_NAME}`);
       } else {
-        console.log(`🐳 SUCCESS TO COMMECT MONGODB :: ${connectData.DB_NAME}`);
+        console.log(`🐳 SUCCESS TO CONNECT MONGODB :: ${connectData.DB_NAME}`);
       }
     }
   );
