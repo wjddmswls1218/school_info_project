@@ -29,7 +29,7 @@ const Student = new Schema(
       required: true,
     },
 
-    brith: {
+    birth: {
       type: String,
       required: true,
     },
